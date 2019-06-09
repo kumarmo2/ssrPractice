@@ -1,0 +1,36 @@
+{
+  "name": "ssrpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:server": "node_modules/.bin/webpack --config webpack.server.js",
+    "build:client": "node_modules/.bin/webpack --config webpack.client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@loadable/component": "^5.10.1",
+    "@loadable/server": "^5.9.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@loadable/babel-plugin": "^5.10.0",
+    "@loadable/webpack-plugin": "^5.7.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
